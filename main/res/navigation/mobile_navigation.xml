@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_onthisday">
+
+
+    <fragment
+        android:id="@+id/nav_onthisday"
+        android:name="com.example.weatherhistory.ui.onthisday.OnThisDayFragment"
+        android:label="@string/menu_onthisday"
+        tools:layout="@layout/fragment_onthisday" />
+
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.example.weatherhistory.ui.historicalsearch.SearchFragment"
+        android:label="@string/menu_search"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/nav_graphs"
+        android:name="com.example.weatherhistory.ui.historicalgraphs.GraphsFragment"
+        android:label="@string/menu_graphs"
+        tools:layout="@layout/fragment_graphs" />
+
+    <fragment
+        android:id="@+id/nav_bookmarks"
+        android:name="com.example.weatherhistory.ui.bookmarks.BookmarksFragment"
+        android:label="@string/menu_bookmarks"
+        tools:layout="@layout/fragment_bookmarks" />
+
+    <fragment
+        android:id="@+id/nav_account"
+        android:name="com.example.weatherhistory.ui.account.AccountFragment"
+        android:label="@string/menu_account"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.weatherhistory.ui.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings"/>
+</navigation>

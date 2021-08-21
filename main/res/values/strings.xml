@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">WeatherHistory</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="historical_title">Station Data</string>
+    <string name="month_image">Month Image</string>
+    <string name="menu_onthisday">On This Day</string>
+    <string name="menu_search">Historical Search</string>
+    <string name="menu_graphs">Historical Graphs</string>
+    <string name="menu_bookmarks">Bookmarks</string>
+    <string name="menu_account">Account</string>
+    <string name="menu_settings">Settings</string>
+    <string name="under_construction">Page under construction</string>
+    <string name="text_temp">ddd</string>
+    <string name="menu_all">All:</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDMbf21DsxFw6sOtn1An-kdeSylMTEGBWs</string>
+    <string name="station_url">http://86.3.49.209/weatherapi/select_station.php?station=</string>
+    <string name="please_wait">Please Wait…</string>
+    <string name="refresh">Refresh</string>
+    <string name="data_fetch_error">Error fetching Data</string>
+
+</resources>
